@@ -64,7 +64,7 @@ const Calculator = ()=>{
                 <button onClick={()=> addToDisplay('1')}>1</button>
                 <button onClick={()=> addToDisplay('2')}>2</button>
                 <button onClick={()=> addToDisplay('3')}>3</button>
-                <button onClick={()=> addToDisplay('4')}>*</button>
+                <button onClick={()=> addToDisplay('*')}>*</button>
             </div>
 
             <div className="fourthRow">
