@@ -1,0 +1,38 @@
+
+.calculator{
+    margin: auto;
+    margin-top: 8%;
+    border: 1px solid black;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: cadetblue;
+}
+
+.inp input{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.result{
+    margin-bottom: 15px;
+    color: red;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.calsBtns{
+    margin-bottom: 15px
+}
+
+.calsBtns button{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
