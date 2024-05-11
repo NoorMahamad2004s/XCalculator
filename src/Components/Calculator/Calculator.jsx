@@ -21,6 +21,12 @@ const Calculator = ()=>{
 
    const calculate = () => {
     try {
+
+        if (!display.trim()) {
+            setResult('Error'); // Display "Error" for empty expression
+            return;
+          }
+
       let calculatedResult = eval(display);
       if (isNaN(calculatedResult)) {
         setResult("NaN"); // Handling 0/0 case
